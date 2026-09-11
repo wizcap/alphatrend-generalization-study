@@ -1,0 +1,976 @@
+{
+  "models": [
+    {
+      "timeframe": "2h",
+      "family": "compact",
+      "days": "None",
+      "heldout": "BTCUSDT",
+      "slots": 32,
+      "fitted": 32,
+      "min_rows": 40,
+      "max_rows": 144,
+      "constant_fits": 0
+    },
+    {
+      "timeframe": "2h",
+      "family": "compact",
+      "days": "None",
+      "heldout": "ETHUSDT",
+      "slots": 32,
+      "fitted": 32,
+      "min_rows": 35,
+      "max_rows": 145,
+      "constant_fits": 2
+    },
+    {
+      "timeframe": "2h",
+      "family": "compact",
+      "days": "None",
+      "heldout": "None",
+      "slots": 32,
+      "fitted": 32,
+      "min_rows": 75,
+      "max_rows": 289,
+      "constant_fits": 0
+    },
+    {
+      "timeframe": "2h",
+      "family": "current",
+      "days": "None",
+      "heldout": "BTCUSDT",
+      "slots": 32,
+      "fitted": 32,
+      "min_rows": 40,
+      "max_rows": 144,
+      "constant_fits": 0
+    },
+    {
+      "timeframe": "2h",
+      "family": "current",
+      "days": "None",
+      "heldout": "ETHUSDT",
+      "slots": 32,
+      "fitted": 32,
+      "min_rows": 35,
+      "max_rows": 145,
+      "constant_fits": 2
+    },
+    {
+      "timeframe": "2h",
+      "family": "ridge",
+      "days": "None",
+      "heldout": "None",
+      "slots": 32,
+      "fitted": 32,
+      "min_rows": 75,
+      "max_rows": 289,
+      "constant_fits": 0
+    },
+    {
+      "timeframe": "2h",
+      "family": "robust",
+      "days": "365",
+      "heldout": "None",
+      "slots": 32,
+      "fitted": 32,
+      "min_rows": 72,
+      "max_rows": 87,
+      "constant_fits": 0
+    },
+    {
+      "timeframe": "2h",
+      "family": "robust",
+      "days": "730",
+      "heldout": "None",
+      "slots": 32,
+      "fitted": 32,
+      "min_rows": 75,
+      "max_rows": 169,
+      "constant_fits": 0
+    },
+    {
+      "timeframe": "2h",
+      "family": "robust",
+      "days": "None",
+      "heldout": "BTCUSDT",
+      "slots": 32,
+      "fitted": 32,
+      "min_rows": 40,
+      "max_rows": 144,
+      "constant_fits": 0
+    },
+    {
+      "timeframe": "2h",
+      "family": "robust",
+      "days": "None",
+      "heldout": "ETHUSDT",
+      "slots": 32,
+      "fitted": 32,
+      "min_rows": 35,
+      "max_rows": 145,
+      "constant_fits": 2
+    },
+    {
+      "timeframe": "2h",
+      "family": "robust",
+      "days": "None",
+      "heldout": "None",
+      "slots": 32,
+      "fitted": 32,
+      "min_rows": 75,
+      "max_rows": 289,
+      "constant_fits": 0
+    },
+    {
+      "timeframe": "4h",
+      "family": "compact",
+      "days": "None",
+      "heldout": "BTCUSDT",
+      "slots": 32,
+      "fitted": 32,
+      "min_rows": 23,
+      "max_rows": 91,
+      "constant_fits": 9
+    },
+    {
+      "timeframe": "4h",
+      "family": "compact",
+      "days": "None",
+      "heldout": "ETHUSDT",
+      "slots": 32,
+      "fitted": 32,
+      "min_rows": 21,
+      "max_rows": 87,
+      "constant_fits": 10
+    },
+    {
+      "timeframe": "4h",
+      "family": "compact",
+      "days": "None",
+      "heldout": "None",
+      "slots": 32,
+      "fitted": 32,
+      "min_rows": 44,
+      "max_rows": 178,
+      "constant_fits": 0
+    },
+    {
+      "timeframe": "4h",
+      "family": "current",
+      "days": "None",
+      "heldout": "BTCUSDT",
+      "slots": 32,
+      "fitted": 32,
+      "min_rows": 23,
+      "max_rows": 91,
+      "constant_fits": 9
+    },
+    {
+      "timeframe": "4h",
+      "family": "current",
+      "days": "None",
+      "heldout": "ETHUSDT",
+      "slots": 32,
+      "fitted": 32,
+      "min_rows": 21,
+      "max_rows": 87,
+      "constant_fits": 10
+    },
+    {
+      "timeframe": "4h",
+      "family": "ridge",
+      "days": "None",
+      "heldout": "None",
+      "slots": 32,
+      "fitted": 32,
+      "min_rows": 44,
+      "max_rows": 178,
+      "constant_fits": 0
+    },
+    {
+      "timeframe": "4h",
+      "family": "robust",
+      "days": "365",
+      "heldout": "None",
+      "slots": 32,
+      "fitted": 32,
+      "min_rows": 40,
+      "max_rows": 59,
+      "constant_fits": 0
+    },
+    {
+      "timeframe": "4h",
+      "family": "robust",
+      "days": "730",
+      "heldout": "None",
+      "slots": 32,
+      "fitted": 32,
+      "min_rows": 44,
+      "max_rows": 108,
+      "constant_fits": 0
+    },
+    {
+      "timeframe": "4h",
+      "family": "robust",
+      "days": "None",
+      "heldout": "BTCUSDT",
+      "slots": 32,
+      "fitted": 32,
+      "min_rows": 23,
+      "max_rows": 91,
+      "constant_fits": 9
+    },
+    {
+      "timeframe": "4h",
+      "family": "robust",
+      "days": "None",
+      "heldout": "ETHUSDT",
+      "slots": 32,
+      "fitted": 32,
+      "min_rows": 21,
+      "max_rows": 87,
+      "constant_fits": 10
+    },
+    {
+      "timeframe": "4h",
+      "family": "robust",
+      "days": "None",
+      "heldout": "None",
+      "slots": 32,
+      "fitted": 32,
+      "min_rows": 44,
+      "max_rows": 178,
+      "constant_fits": 0
+    }
+  ],
+  "actions": [
+    {
+      "timeframe": "2h",
+      "arm": "alpha",
+      "group": "development",
+      "checkpoints": 161,
+      "statuses": {
+        "resolved": 158,
+        "boundary": 1,
+        "censored": 2
+      },
+      "insufficient": 0,
+      "exits": 0,
+      "resolved_exits": 0,
+      "forecast_count": 0,
+      "raw_payoff_mae": null,
+      "regret_sum": 0.8054863311147098,
+      "alpha_regret_sum": 0.8054863311147098
+    },
+    {
+      "timeframe": "2h",
+      "arm": "alpha",
+      "group": "recent",
+      "checkpoints": 60,
+      "statuses": {
+        "resolved": 58,
+        "censored": 2
+      },
+      "insufficient": 0,
+      "exits": 0,
+      "resolved_exits": 0,
+      "forecast_count": 0,
+      "raw_payoff_mae": null,
+      "regret_sum": 0.30528049083443953,
+      "alpha_regret_sum": 0.30528049083443953
+    },
+    {
+      "timeframe": "2h",
+      "arm": "current",
+      "group": "development",
+      "checkpoints": 161,
+      "statuses": {
+        "resolved": 158,
+        "boundary": 1,
+        "censored": 2
+      },
+      "insufficient": 0,
+      "exits": 60,
+      "resolved_exits": 59,
+      "forecast_count": 158,
+      "raw_payoff_mae": 0.01708602225575665,
+      "regret_sum": 0.9891848766011652,
+      "alpha_regret_sum": 0.8054863311147098
+    },
+    {
+      "timeframe": "2h",
+      "arm": "current",
+      "group": "recent",
+      "checkpoints": 60,
+      "statuses": {
+        "resolved": 58,
+        "censored": 2
+      },
+      "insufficient": 0,
+      "exits": 19,
+      "resolved_exits": 17,
+      "forecast_count": 58,
+      "raw_payoff_mae": 0.014758337107186425,
+      "regret_sum": 0.2777370794745577,
+      "alpha_regret_sum": 0.30528049083443953
+    },
+    {
+      "timeframe": "2h",
+      "arm": "compact8",
+      "group": "development",
+      "checkpoints": 161,
+      "statuses": {
+        "resolved": 158,
+        "boundary": 1,
+        "censored": 2
+      },
+      "insufficient": 0,
+      "exits": 50,
+      "resolved_exits": 50,
+      "forecast_count": 158,
+      "raw_payoff_mae": 0.01625431043456785,
+      "regret_sum": 1.1934188909006038,
+      "alpha_regret_sum": 0.8054863311147098
+    },
+    {
+      "timeframe": "2h",
+      "arm": "compact8",
+      "group": "recent",
+      "checkpoints": 60,
+      "statuses": {
+        "resolved": 58,
+        "censored": 2
+      },
+      "insufficient": 0,
+      "exits": 12,
+      "resolved_exits": 10,
+      "forecast_count": 58,
+      "raw_payoff_mae": 0.01239527875370374,
+      "regret_sum": 0.2555305562095662,
+      "alpha_regret_sum": 0.30528049083443953
+    },
+    {
+      "timeframe": "2h",
+      "arm": "robust8",
+      "group": "development",
+      "checkpoints": 161,
+      "statuses": {
+        "resolved": 158,
+        "boundary": 1,
+        "censored": 2
+      },
+      "insufficient": 0,
+      "exits": 48,
+      "resolved_exits": 48,
+      "forecast_count": 158,
+      "raw_payoff_mae": 0.01624653171674228,
+      "regret_sum": 1.1602825515110824,
+      "alpha_regret_sum": 0.8054863311147098
+    },
+    {
+      "timeframe": "2h",
+      "arm": "robust8",
+      "group": "recent",
+      "checkpoints": 60,
+      "statuses": {
+        "resolved": 58,
+        "censored": 2
+      },
+      "insufficient": 0,
+      "exits": 13,
+      "resolved_exits": 11,
+      "forecast_count": 58,
+      "raw_payoff_mae": 0.012386801341565513,
+      "regret_sum": 0.24482979936715377,
+      "alpha_regret_sum": 0.30528049083443953
+    },
+    {
+      "timeframe": "2h",
+      "arm": "temporal_mean",
+      "group": "development",
+      "checkpoints": 161,
+      "statuses": {
+        "resolved": 158,
+        "boundary": 1,
+        "censored": 2
+      },
+      "insufficient": 0,
+      "exits": 34,
+      "resolved_exits": 34,
+      "forecast_count": 158,
+      "raw_payoff_mae": 0.01607391574065252,
+      "regret_sum": 1.1338824388251112,
+      "alpha_regret_sum": 0.8054863311147098
+    },
+    {
+      "timeframe": "2h",
+      "arm": "temporal_mean",
+      "group": "recent",
+      "checkpoints": 60,
+      "statuses": {
+        "resolved": 58,
+        "censored": 2
+      },
+      "insufficient": 0,
+      "exits": 17,
+      "resolved_exits": 15,
+      "forecast_count": 58,
+      "raw_payoff_mae": 0.011925555204921001,
+      "regret_sum": 0.25719671640791264,
+      "alpha_regret_sum": 0.30528049083443953
+    },
+    {
+      "timeframe": "2h",
+      "arm": "temporal_guard",
+      "group": "development",
+      "checkpoints": 161,
+      "statuses": {
+        "resolved": 158,
+        "boundary": 1,
+        "censored": 2
+      },
+      "insufficient": 0,
+      "exits": 22,
+      "resolved_exits": 22,
+      "forecast_count": 158,
+      "raw_payoff_mae": 0.01607391574065252,
+      "regret_sum": 1.0272062838046059,
+      "alpha_regret_sum": 0.8054863311147098
+    },
+    {
+      "timeframe": "2h",
+      "arm": "temporal_guard",
+      "group": "recent",
+      "checkpoints": 60,
+      "statuses": {
+        "resolved": 58,
+        "censored": 2
+      },
+      "insufficient": 0,
+      "exits": 10,
+      "resolved_exits": 8,
+      "forecast_count": 58,
+      "raw_payoff_mae": 0.011925555204921001,
+      "regret_sum": 0.27380323151486485,
+      "alpha_regret_sum": 0.30528049083443953
+    },
+    {
+      "timeframe": "2h",
+      "arm": "ridge8",
+      "group": "development",
+      "checkpoints": 161,
+      "statuses": {
+        "resolved": 158,
+        "boundary": 1,
+        "censored": 2
+      },
+      "insufficient": 0,
+      "exits": 32,
+      "resolved_exits": 32,
+      "forecast_count": 158,
+      "raw_payoff_mae": 0.016632983898468148,
+      "regret_sum": 0.7302972661862189,
+      "alpha_regret_sum": 0.8054863311147098
+    },
+    {
+      "timeframe": "2h",
+      "arm": "ridge8",
+      "group": "recent",
+      "checkpoints": 60,
+      "statuses": {
+        "resolved": 58,
+        "censored": 2
+      },
+      "insufficient": 0,
+      "exits": 8,
+      "resolved_exits": 7,
+      "forecast_count": 58,
+      "raw_payoff_mae": 0.01269662758143182,
+      "regret_sum": 0.3044406795572542,
+      "alpha_regret_sum": 0.30528049083443953
+    },
+    {
+      "timeframe": "2h",
+      "arm": "transfer_current",
+      "group": "development",
+      "checkpoints": 161,
+      "statuses": {
+        "resolved": 158,
+        "boundary": 1,
+        "censored": 2
+      },
+      "insufficient": 0,
+      "exits": 43,
+      "resolved_exits": 43,
+      "forecast_count": 158,
+      "raw_payoff_mae": 0.017242529191537858,
+      "regret_sum": 1.0413267733682772,
+      "alpha_regret_sum": 0.8054863311147098
+    },
+    {
+      "timeframe": "2h",
+      "arm": "transfer_current",
+      "group": "recent",
+      "checkpoints": 60,
+      "statuses": {
+        "resolved": 58,
+        "censored": 2
+      },
+      "insufficient": 0,
+      "exits": 15,
+      "resolved_exits": 14,
+      "forecast_count": 58,
+      "raw_payoff_mae": 0.015211082641403955,
+      "regret_sum": 0.30224518931611144,
+      "alpha_regret_sum": 0.30528049083443953
+    },
+    {
+      "timeframe": "2h",
+      "arm": "transfer_compact",
+      "group": "development",
+      "checkpoints": 161,
+      "statuses": {
+        "resolved": 158,
+        "boundary": 1,
+        "censored": 2
+      },
+      "insufficient": 0,
+      "exits": 10,
+      "resolved_exits": 10,
+      "forecast_count": 158,
+      "raw_payoff_mae": 0.016317070474761206,
+      "regret_sum": 0.7493628671973913,
+      "alpha_regret_sum": 0.8054863311147098
+    },
+    {
+      "timeframe": "2h",
+      "arm": "transfer_compact",
+      "group": "recent",
+      "checkpoints": 60,
+      "statuses": {
+        "resolved": 58,
+        "censored": 2
+      },
+      "insufficient": 0,
+      "exits": 10,
+      "resolved_exits": 9,
+      "forecast_count": 58,
+      "raw_payoff_mae": 0.01258365826439206,
+      "regret_sum": 0.2818525142204339,
+      "alpha_regret_sum": 0.30528049083443953
+    },
+    {
+      "timeframe": "2h",
+      "arm": "transfer_robust",
+      "group": "development",
+      "checkpoints": 161,
+      "statuses": {
+        "resolved": 158,
+        "boundary": 1,
+        "censored": 2
+      },
+      "insufficient": 0,
+      "exits": 13,
+      "resolved_exits": 13,
+      "forecast_count": 158,
+      "raw_payoff_mae": 0.01619823099323364,
+      "regret_sum": 0.7665609974930961,
+      "alpha_regret_sum": 0.8054863311147098
+    },
+    {
+      "timeframe": "2h",
+      "arm": "transfer_robust",
+      "group": "recent",
+      "checkpoints": 60,
+      "statuses": {
+        "resolved": 58,
+        "censored": 2
+      },
+      "insufficient": 0,
+      "exits": 8,
+      "resolved_exits": 8,
+      "forecast_count": 58,
+      "raw_payoff_mae": 0.01258426008510661,
+      "regret_sum": 0.29255327106284634,
+      "alpha_regret_sum": 0.30528049083443953
+    },
+    {
+      "timeframe": "4h",
+      "arm": "alpha",
+      "group": "development",
+      "checkpoints": 99,
+      "statuses": {
+        "resolved": 93,
+        "censored": 4,
+        "boundary": 2
+      },
+      "insufficient": 0,
+      "exits": 0,
+      "resolved_exits": 0,
+      "forecast_count": 0,
+      "raw_payoff_mae": null,
+      "regret_sum": 0.9287753507483725,
+      "alpha_regret_sum": 0.9287753507483725
+    },
+    {
+      "timeframe": "4h",
+      "arm": "alpha",
+      "group": "recent",
+      "checkpoints": 40,
+      "statuses": {
+        "resolved": 38,
+        "boundary": 1,
+        "censored": 1
+      },
+      "insufficient": 0,
+      "exits": 0,
+      "resolved_exits": 0,
+      "forecast_count": 0,
+      "raw_payoff_mae": null,
+      "regret_sum": 0.35937601795773955,
+      "alpha_regret_sum": 0.35937601795773955
+    },
+    {
+      "timeframe": "4h",
+      "arm": "current",
+      "group": "development",
+      "checkpoints": 99,
+      "statuses": {
+        "resolved": 93,
+        "censored": 4,
+        "boundary": 2
+      },
+      "insufficient": 0,
+      "exits": 33,
+      "resolved_exits": 31,
+      "forecast_count": 93,
+      "raw_payoff_mae": 0.028274061351446948,
+      "regret_sum": 0.7389734981248407,
+      "alpha_regret_sum": 0.9287753507483725
+    },
+    {
+      "timeframe": "4h",
+      "arm": "current",
+      "group": "recent",
+      "checkpoints": 40,
+      "statuses": {
+        "resolved": 38,
+        "boundary": 1,
+        "censored": 1
+      },
+      "insufficient": 0,
+      "exits": 16,
+      "resolved_exits": 15,
+      "forecast_count": 38,
+      "raw_payoff_mae": 0.019883563558326402,
+      "regret_sum": 0.22793474610004305,
+      "alpha_regret_sum": 0.35937601795773955
+    },
+    {
+      "timeframe": "4h",
+      "arm": "compact8",
+      "group": "development",
+      "checkpoints": 99,
+      "statuses": {
+        "resolved": 93,
+        "censored": 4,
+        "boundary": 2
+      },
+      "insufficient": 0,
+      "exits": 17,
+      "resolved_exits": 17,
+      "forecast_count": 93,
+      "raw_payoff_mae": 0.028560569421139485,
+      "regret_sum": 1.0346510502716348,
+      "alpha_regret_sum": 0.9287753507483725
+    },
+    {
+      "timeframe": "4h",
+      "arm": "compact8",
+      "group": "recent",
+      "checkpoints": 40,
+      "statuses": {
+        "resolved": 38,
+        "boundary": 1,
+        "censored": 1
+      },
+      "insufficient": 0,
+      "exits": 4,
+      "resolved_exits": 4,
+      "forecast_count": 38,
+      "raw_payoff_mae": 0.018934223831762936,
+      "regret_sum": 0.37997168477924126,
+      "alpha_regret_sum": 0.35937601795773955
+    },
+    {
+      "timeframe": "4h",
+      "arm": "robust8",
+      "group": "development",
+      "checkpoints": 99,
+      "statuses": {
+        "resolved": 93,
+        "censored": 4,
+        "boundary": 2
+      },
+      "insufficient": 0,
+      "exits": 20,
+      "resolved_exits": 20,
+      "forecast_count": 93,
+      "raw_payoff_mae": 0.028134323859922934,
+      "regret_sum": 1.0994553468957842,
+      "alpha_regret_sum": 0.9287753507483725
+    },
+    {
+      "timeframe": "4h",
+      "arm": "robust8",
+      "group": "recent",
+      "checkpoints": 40,
+      "statuses": {
+        "resolved": 38,
+        "boundary": 1,
+        "censored": 1
+      },
+      "insufficient": 0,
+      "exits": 11,
+      "resolved_exits": 11,
+      "forecast_count": 38,
+      "raw_payoff_mae": 0.018089745513584894,
+      "regret_sum": 0.34951037689236364,
+      "alpha_regret_sum": 0.35937601795773955
+    },
+    {
+      "timeframe": "4h",
+      "arm": "temporal_mean",
+      "group": "development",
+      "checkpoints": 99,
+      "statuses": {
+        "resolved": 93,
+        "censored": 4,
+        "boundary": 2
+      },
+      "insufficient": 0,
+      "exits": 19,
+      "resolved_exits": 19,
+      "forecast_count": 93,
+      "raw_payoff_mae": 0.02809636577821661,
+      "regret_sum": 1.1584747890639167,
+      "alpha_regret_sum": 0.9287753507483725
+    },
+    {
+      "timeframe": "4h",
+      "arm": "temporal_mean",
+      "group": "recent",
+      "checkpoints": 40,
+      "statuses": {
+        "resolved": 38,
+        "boundary": 1,
+        "censored": 1
+      },
+      "insufficient": 0,
+      "exits": 11,
+      "resolved_exits": 11,
+      "forecast_count": 38,
+      "raw_payoff_mae": 0.01672252921963438,
+      "regret_sum": 0.30157169935326533,
+      "alpha_regret_sum": 0.35937601795773955
+    },
+    {
+      "timeframe": "4h",
+      "arm": "temporal_guard",
+      "group": "development",
+      "checkpoints": 99,
+      "statuses": {
+        "resolved": 93,
+        "censored": 4,
+        "boundary": 2
+      },
+      "insufficient": 0,
+      "exits": 9,
+      "resolved_exits": 9,
+      "forecast_count": 93,
+      "raw_payoff_mae": 0.02809636577821661,
+      "regret_sum": 1.1859376898714469,
+      "alpha_regret_sum": 0.9287753507483725
+    },
+    {
+      "timeframe": "4h",
+      "arm": "temporal_guard",
+      "group": "recent",
+      "checkpoints": 40,
+      "statuses": {
+        "resolved": 38,
+        "boundary": 1,
+        "censored": 1
+      },
+      "insufficient": 0,
+      "exits": 5,
+      "resolved_exits": 5,
+      "forecast_count": 38,
+      "raw_payoff_mae": 0.01672252921963438,
+      "regret_sum": 0.3515596154464259,
+      "alpha_regret_sum": 0.35937601795773955
+    },
+    {
+      "timeframe": "4h",
+      "arm": "ridge8",
+      "group": "development",
+      "checkpoints": 99,
+      "statuses": {
+        "resolved": 93,
+        "censored": 4,
+        "boundary": 2
+      },
+      "insufficient": 0,
+      "exits": 35,
+      "resolved_exits": 34,
+      "forecast_count": 93,
+      "raw_payoff_mae": 0.028192657669456493,
+      "regret_sum": 1.2779404374343823,
+      "alpha_regret_sum": 0.9287753507483725
+    },
+    {
+      "timeframe": "4h",
+      "arm": "ridge8",
+      "group": "recent",
+      "checkpoints": 40,
+      "statuses": {
+        "resolved": 38,
+        "boundary": 1,
+        "censored": 1
+      },
+      "insufficient": 0,
+      "exits": 6,
+      "resolved_exits": 6,
+      "forecast_count": 38,
+      "raw_payoff_mae": 0.018614929050014835,
+      "regret_sum": 0.3243051565204913,
+      "alpha_regret_sum": 0.35937601795773955
+    },
+    {
+      "timeframe": "4h",
+      "arm": "transfer_current",
+      "group": "development",
+      "checkpoints": 99,
+      "statuses": {
+        "resolved": 93,
+        "censored": 4,
+        "boundary": 2
+      },
+      "insufficient": 0,
+      "exits": 19,
+      "resolved_exits": 19,
+      "forecast_count": 93,
+      "raw_payoff_mae": 0.028981533440146395,
+      "regret_sum": 0.9164444647367572,
+      "alpha_regret_sum": 0.9287753507483725
+    },
+    {
+      "timeframe": "4h",
+      "arm": "transfer_current",
+      "group": "recent",
+      "checkpoints": 40,
+      "statuses": {
+        "resolved": 38,
+        "boundary": 1,
+        "censored": 1
+      },
+      "insufficient": 0,
+      "exits": 12,
+      "resolved_exits": 12,
+      "forecast_count": 38,
+      "raw_payoff_mae": 0.021231691930014333,
+      "regret_sum": 0.3602665387781777,
+      "alpha_regret_sum": 0.35937601795773955
+    },
+    {
+      "timeframe": "4h",
+      "arm": "transfer_compact",
+      "group": "development",
+      "checkpoints": 99,
+      "statuses": {
+        "resolved": 93,
+        "censored": 4,
+        "boundary": 2
+      },
+      "insufficient": 0,
+      "exits": 6,
+      "resolved_exits": 6,
+      "forecast_count": 93,
+      "raw_payoff_mae": 0.02937892787617382,
+      "regret_sum": 1.0235859085760022,
+      "alpha_regret_sum": 0.9287753507483725
+    },
+    {
+      "timeframe": "4h",
+      "arm": "transfer_compact",
+      "group": "recent",
+      "checkpoints": 40,
+      "statuses": {
+        "resolved": 38,
+        "boundary": 1,
+        "censored": 1
+      },
+      "insufficient": 0,
+      "exits": 12,
+      "resolved_exits": 12,
+      "forecast_count": 38,
+      "raw_payoff_mae": 0.018867373237881273,
+      "regret_sum": 0.3012121656721032,
+      "alpha_regret_sum": 0.35937601795773955
+    },
+    {
+      "timeframe": "4h",
+      "arm": "transfer_robust",
+      "group": "development",
+      "checkpoints": 99,
+      "statuses": {
+        "resolved": 93,
+        "censored": 4,
+        "boundary": 2
+      },
+      "insufficient": 0,
+      "exits": 5,
+      "resolved_exits": 5,
+      "forecast_count": 93,
+      "raw_payoff_mae": 0.028692293487334968,
+      "regret_sum": 0.9901236036256811,
+      "alpha_regret_sum": 0.9287753507483725
+    },
+    {
+      "timeframe": "4h",
+      "arm": "transfer_robust",
+      "group": "recent",
+      "checkpoints": 40,
+      "statuses": {
+        "resolved": 38,
+        "boundary": 1,
+        "censored": 1
+      },
+      "insufficient": 0,
+      "exits": 15,
+      "resolved_exits": 15,
+      "forecast_count": 38,
+      "raw_payoff_mae": 0.01816571159937488,
+      "regret_sum": 0.3337814940017405,
+      "alpha_regret_sum": 0.35937601795773955
+    }
+  ],
+  "temporal_overlap": [
+    {
+      "timeframe": "2h",
+      "all_three_identical": 1,
+      "all_vs_730_identical": 13,
+      "at_least_two_distinct": 31,
+      "all_three_distinct": 19,
+      "development_at_least_two_distinct": 23
+    },
+    {
+      "timeframe": "4h",
+      "all_three_identical": 1,
+      "all_vs_730_identical": 13,
+      "at_least_two_distinct": 31,
+      "all_three_distinct": 19,
+      "development_at_least_two_distinct": 23
+    }
+  ]
+}

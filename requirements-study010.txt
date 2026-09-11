@@ -1,0 +1,3 @@
+-r requirements-study009.txt
+numba==0.67.0
+llvmlite==0.49.0

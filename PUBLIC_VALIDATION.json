@@ -1,0 +1,90 @@
+{
+  "schema": 1,
+  "release": "v1.0.0",
+  "date": "2026-09-11",
+  "status": "passed",
+  "runtime": {
+    "python": "3.13.14",
+    "packages": {
+      "numpy": "2.5.3",
+      "pandas": "3.0.5",
+      "scikit-learn": "1.9.1",
+      "numba": "0.67.0",
+      "pytest": "9.1.1"
+    }
+  },
+  "test_suite": {
+    "command": "python -m pytest -q",
+    "passed": 303,
+    "elapsed_seconds": 19.35,
+    "scope": "curated publication checkout"
+  },
+  "public_numerical_and_model_run": {
+    "public_hashes": 1605,
+    "derived_asset_curves": 720,
+    "group_curves": 120,
+    "contrast_point_estimates": 20,
+    "bootstrap_intervals": 40,
+    "refitted_models": 704
+  },
+  "public_raw_market_run": {
+    "public_hashes": 1608,
+    "derived_asset_curves": 720,
+    "group_curves": 120,
+    "contrast_point_estimates": 20,
+    "bootstrap_intervals": 0,
+    "downloaded_archives": 355,
+    "raw_archive_hashes": 355,
+    "rebuilt_labels": 1015,
+    "market_accounts": 720
+  },
+  "input_cache": "All 355 local public archives matched the recorded SHA-256 hashes. The full archive set was reused from cache, not freshly fetched over the network.",
+  "provider_retrieval_samples": [
+    {
+      "file": "data/study008/klines/BTCUSDT-15m-2022-01.zip",
+      "sha256_matches": true,
+      "bytes": 151020
+    },
+    {
+      "file": "data/study008/markPriceKlines/BTCUSDT-15m-2026-08.zip",
+      "sha256_matches": true,
+      "bytes": 79421
+    },
+    {
+      "file": "data/fundingRate/BTCUSDT-fundingRate-2022-01.zip",
+      "sha256_matches": true,
+      "bytes": 906
+    },
+    {
+      "file": "data/fundingRate/ETHUSDT-fundingRate-2026-08.zip",
+      "sha256_matches": true,
+      "bytes": 925
+    }
+  ],
+  "pdf": {
+    "pages": 12,
+    "all_pages_rendered_and_visually_reviewed": true,
+    "text_and_page_checks_passed": true,
+    "sha256": "8befba9740d714fc3d4155a5aeeda57e59c638b4fa8f68aa50e39df3f8bd7b1d"
+  },
+  "citation": {
+    "schema": "https://raw.githubusercontent.com/citation-file-format/citation-file-format/main/schema.json",
+    "cff_valid": true
+  },
+  "release_integrity": {
+    "public_manifest": "PUBLIC_MANIFEST.json",
+    "frozen_source_files_matched": 90,
+    "credentials_or_machine_paths_detected": 0,
+    "original_source_files_unchanged": 90,
+    "original_prior_evidence_files_unchanged": 118
+  },
+  "scope_notes": [
+    "The numerical/model run preceded editorial additions and legacy funding URL fixes. The frozen model refitting and bootstrap routines were unchanged; the completed market run uses the corrected public download wrapper.",
+    "Run-specific public_hashes values are the manifest file counts at those run times. PUBLIC_MANIFEST.json records final release files.",
+    "The final release manifest and derived result curves are checked again after this record is assembled.",
+    "The original prior-evidence and operational-state checks were possible locally. Public reproduction does not assert access to excluded operational files.",
+    "Automated Claude review and separate computational implementations are not external scientific peer review or third-party replication.",
+    "All evaluation history was previously inspected; no fresh holdout, live-profitability claim, journal acceptance or DOI is implied."
+  ],
+  "deployment_candidate": null
+}

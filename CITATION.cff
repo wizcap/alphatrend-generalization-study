@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Please cite the preprint and specify the release or commit used."
+title: "Generalization Limits of Adaptive AlphaTrend Exit Models in Cryptocurrency Futures"
+type: software
+authors:
+  - name: "wizcap"
+    website: "https://github.com/wizcap"
+version: 1.0.0
+date-released: 2026-09-11
+url: "https://github.com/wizcap/alphatrend-generalization-study"
+repository-code: "https://github.com/wizcap/alphatrend-generalization-study"
+license: MPL-2.0
+keywords:
+  - quantitative trading
+  - AlphaTrend
+  - generalization
+  - negative results
+  - cryptocurrency futures
+preferred-citation:
+  type: report
+  title: "Generalization Limits of Adaptive AlphaTrend Exit Models in Cryptocurrency Futures"
+  authors:
+    - name: "wizcap"
+  year: 2026
+  month: 9
+  version: 1.0.0
+  url: "https://github.com/wizcap/alphatrend-generalization-study/blob/v1.0.0/paper/manuscript.md"
+  notes: "Research preprint. Not peer reviewed. No DOI assigned."

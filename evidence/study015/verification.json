@@ -1,0 +1,20 @@
+{
+  "tests_passed": 303,
+  "raw_archives": 355,
+  "new_fit_slots": 704,
+  "models_independently_refitted": 704,
+  "no_model_slots": 0,
+  "cached_references_verified": 64,
+  "asset_windows": 720,
+  "action_events": 23010,
+  "episode_attributions": 12210,
+  "diagnostic_rows": 3600,
+  "intervals": 40,
+  "independent_membership_quantiles_weights_scalers": true,
+  "manual_tree_predictions_and_ridge_solutions": true,
+  "full_asset_and_portfolio_curves_verified": true,
+  "repair_annual_asset_and_cost_summaries_verified": true,
+  "study013_alpha_and_current_exactly_reproduced": true,
+  "frozen_hashes_and_shadow_state_unchanged": true,
+  "production_selection": null
+}
